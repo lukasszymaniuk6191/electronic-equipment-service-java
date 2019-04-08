@@ -35,7 +35,7 @@ public class Issue {
 
 
     @OneToOne
-    @JoinColumn(name = "issue_id", referencedColumnName = "id")
+    @JoinColumn(name = "equipment_id", referencedColumnName = "id")
     private Equipment equipment;
 
 }
